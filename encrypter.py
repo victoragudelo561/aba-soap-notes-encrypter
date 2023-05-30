@@ -27,7 +27,3 @@ class AESCipher:
 
     def _unpad(self, s):
         return s[:-ord(s[len(s) - 1:])].decode()
-
-prueba = AESCipher()
-
-print(prueba.decrypt("w5FRqcWxQv3AOoSTFTk4OclWoDbQjdsnL74ms/o/Ef0OYQ99kOebgUQoH6EQLZcUFsIvxMZ+6kRVzf/MY/Bg+cMW+Jv3HRQUJ1mq3lGHxVmBOn5gEepwk2UjpcMjcaai6FOrQgWyrGq7wCyD85JxMnMNlzYQNxC+fw3J4hvjH5q6Kg9IsAy44BTBpgM76qHH"))
